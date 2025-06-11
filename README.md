@@ -5,7 +5,7 @@
 *A Matter compatible smart door knob*
 
 ## Overview
-This smart door knob is designed specifically for Kwikset bed/room door knobs. The door knob is compatible with the [Matter](https://en.wikipedia.org/wiki/Matter_(standard)) smart home protocol, so it works with Amazon Alexa, Apple HomeKit, and Google Home. The only requirement is that you have a [Thread Border Router](https://www.matteralpha.com/explainer/thread-border-router) for the micrcontroller to connect to.
+This smart door knob is designed specifically for Kwikset bed/room door knobs. The door knob is compatible with the [Matter](https://en.wikipedia.org/wiki/Matter_(standard)) smart home protocol, so it works with Amazon Alexa, Apple HomeKit, and Google Home. The only requirement is that you have a [Thread Border Router](https://www.matteralpha.com/explainer/thread-border-router) for the microcontroller (Arduino Nano Matter) to connect to.
 
 ## Instructions
 After the code is flashed, you will need to set it up. You can use the QR Code link provided in the terminal, or use a manual pairing code. Once paired, (and whenever it turns on/resets after that) the RGB LED will begin to pulse blue. This signifies that it is in the process of connecting to the Thread Border Router that you specificed.
